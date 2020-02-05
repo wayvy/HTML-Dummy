@@ -1,0 +1,9 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "main": "./src/cli.js",
+  "license": "MIT",
+  "bin": {
+    "html": "./src/cli.js"
+  }
+}
