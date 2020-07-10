@@ -11,3 +11,10 @@ Creates a minimal valid HTML file
 <body>content</body>
 </html>
 ```
+
+Options:
+```
+	--lang
+	--charset
+	--title
+```
