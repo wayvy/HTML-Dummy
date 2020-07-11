@@ -18,7 +18,7 @@ npm install -g
 
 ## Usage
 ```
-html
+htmlg
 ```
 
 ### Options:
@@ -26,4 +26,5 @@ html
 --lang    Set html language    [string] [default: en]
 --charset    Set meta charset    [string] [default: utf-8]
 --title    Set title    [string] [default: title]
+--body    Set body content [string]
 ```
