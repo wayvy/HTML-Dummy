@@ -7,10 +7,10 @@ const generateHTML = require('./generateHTML.js');
 const generateFileName = defaultFileName => {
   if(fs.existsSync(`${defaultFileName}.html`)){
     let i=1;
-    defaultFileName = `${defaultFileName} (${i})`;
+    defaultFileName = `${defaultFileName}(${i})`;
     while(fs.existsSync(`${defaultFileName}.html`)){
       i++;
-      defaultFileName = `${defaultFileName.substring(0, defaultFileName.length - 4)} (${i})`;
+      defaultFileName = `${defaultFileName.substring(0, defaultFileName.length - 4)}(${i})`;
     }
   }
   return defaultFileName;
