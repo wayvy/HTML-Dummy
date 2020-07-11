@@ -21,7 +21,7 @@ npm install -g
 html
 ```
 
-Options:
+### Options:
 ```
 --lang    Set html language    [string] [default: en]
 --charset    Set meta charset    [string] [default: utf-8]
