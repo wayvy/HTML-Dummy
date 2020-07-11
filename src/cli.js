@@ -9,8 +9,9 @@ const generateFileName = defaultFileName => {
     let i=1;
     defaultFileName = `${defaultFileName}(${i})`;
     while(fs.existsSync(`${defaultFileName}.html`)){
+      const prevPrefix = `(${i})`;
       i++;
-      defaultFileName = `${defaultFileName.substring(0, defaultFileName.length - 4)}(${i})`;
+      defaultFileName = `${defaultFileName.substring(0, defaultFileName.length - prevPrefix.length)}(${i})`;
     }
   }
   return defaultFileName;
