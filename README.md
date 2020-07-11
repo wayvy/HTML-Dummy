@@ -1,6 +1,5 @@
 # HTML Dummy
 Creates a minimal valid HTML file
-
 ```
 <!doctype html>
 <html lang=en> 
@@ -8,13 +7,23 @@ Creates a minimal valid HTML file
 <meta charset=utf-8>
 <title>title</title>
 </head>
-<body>content</body>
+<body><!-- content --></body>
 </html>
+```
+
+## Install
+```
+npm install -g
+```
+
+## Usage
+```
+html
 ```
 
 Options:
 ```
-	--lang
-	--charset
-	--title
+--lang    Set html language    [string] [default: en]
+--charset    Set meta charset    [string] [default: utf-8]
+--title    Set title    [string] [default: title]
 ```
